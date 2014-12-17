@@ -1,0 +1,351 @@
+body {
+	background-image: url(bgrayslight.svg);
+	background-size: 300% 300%;
+	background-position: center center;
+}
+
+.green {
+	color: #4cae4c;
+}
+.bottom-border {
+	border-bottom: 1px solid #ccc;
+}
+.shadow {
+	box-shadow: 0 0 7px rgba(0,0,0,0.15);
+}
+
+nav.navbar-fixed-top {
+  	filter: alpha(opacity=80);
+ 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	opacity: 0.8;
+}
+.navbar-left {
+	padding: 7px;
+	font-family: 'Tahoma', 'Trebuchet MS', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #555;
+}
+.navbar-right {
+	padding: 7px;
+}
+.visible-xs .navbar-right a,
+.visible-xs .navbar-right a:hover {
+	color: #222;
+	font-weight: bold;
+	background: #5cb85c;
+	border-color: #4cae4c;
+}
+
+.top-divider {
+	clear: both;
+	margin: 2em 0;
+}
+#main-content {
+	background: #fff;
+	padding-bottom: 15px;
+}
+#main-content .form-group {
+	clear: both;
+}
+.cta-heading h1 {
+	margin-bottom: 0;
+	font-size: 4em;
+	margin-top: 5px;
+}
+.cta-heading span {
+	font-size: 1.35em;
+	font-weight: bold;
+}
+.benefits {
+	font-size: 1.45em;
+	line-height: 1.75em;
+	padding: 1.5em 0; 
+}
+.cta-button {
+	font-size: 24px;
+}
+
+.row.mobile-footer {
+	text-align: center;
+	padding: 1.5em 0;
+	color: #ccc;
+}
+
+/* SOCIAL ICONS MODULE STYLES */
+.social-icons {
+	padding: 1em 0;
+}
+.social-icons img {
+	width: 56px;
+}
+.social-icons a:hover {
+	text-decoration: none;
+}
+
+/* SISTER SITES LOGOS STYLES */
+.sitelogos img:hover,
+.bottom-banner > a > img:hover,
+.social-icons > a > img:hover
+ {
+	-webkit-filter: grayscale(1); 
+	-webkit-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%);
+	filter: gray; 
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+}
+
+/* BOTTOM BANNERS STYLES */
+#bottom-banners > div {
+	text-align: center;
+	margin-bottom: 1em;
+}
+.bottom-banner {
+	background: #fff;
+	padding: 1em;
+}
+.bottom-banner > a > img {
+	padding-top: 0.75em;
+}
+
+/* MAIN PAGE FORM STYLES */
+form div.form-group:first-child {
+	margin-bottom: 0;
+}
+.login-remember-line {
+	padding: 0.75em 0;
+}
+.form-note {
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+.input-group-addon > i.fa-2x {
+	width: 28px;
+	height: 28px;
+	color: #ccc;
+}
+.user-field > div {
+	border-bottom-left-radius: 0;
+}
+.user-field > input {
+	border-bottom-right-radius: 0;
+}
+div.user-field {
+	z-index: 99;
+}
+div.pass-field {
+	margin-top: -1px;
+}
+.pass-field > div {
+	border-top-left-radius: 0;
+}
+.pass-field > input {
+	border-top-right-radius: 0;
+}
+.submit-line {
+	margin-top: 10px;
+}
+.submit-line > .remember-label {
+	padding-left: 12px;
+	line-height: 46px;
+	font-size: 18px;
+	color: #555;
+}
+#error-message {
+	padding: 9px 8px 8px;
+}
+input.form-control {
+	background: #f5f5f5;
+	border-color: #ccc;
+	color: #b3b3b3;
+}
+input.form-control:focus {
+	background: #fff;
+	border-color: #3281f0;
+	color: #ccc;
+}
+.form-control-feedback {	
+	display: none;
+}
+.form-control-feedback.fa-remove {
+	top: 9px;
+	right: 3px;
+	color: #F27870;
+}
+.form-control-feedback.fa-check {
+	color: #5cb85c;
+}
+div.input-group.has-success i.fa-check {
+	display: block;
+}
+div.input-group.has-error i.fa-remove {
+	display: block;
+}
+div.input-group.has-error {
+	z-index: 99;
+}
+.shake {	
+	position: relative;
+}
+
+/* QapTcha SLIDER CAPTCHA STYLES */
+div.QapTcha {
+	margin-top: 0;
+	padding: 0;
+}
+div.QapTcha div.bgSlider {
+	height: 100%;
+	width: 100%;
+	border: none;
+	background: none;
+}
+div.QapTcha .Slider {
+  background-size: 100% 100%;
+  height: 44px;
+  width: 60px;
+}
+div.Slider.ui-draggable-disabled {
+	-webkit-filter: grayscale(1); 
+	-webkit-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%);
+	filter: gray; 
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+}
+
+/* SUPPORT TICKET POPUP BOX STYLES */
+#main-content button.support-ticket-trigger {
+	color: #4D4D4D;
+	text-decoration: underline;
+}
+#main-content button.support-ticket-trigger:hover {
+	color: #000;
+}
+nav button.support-ticket-trigger {
+	background: #e6e6e6;
+	color: #474747;
+}
+nav button.support-ticket-trigger:hover {
+	background: #dedede;
+	color: #000;
+}
+div.support-ticket-fader {
+	background: rgba(0,0,0,0.7);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff');
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1040;
+	display: none;
+}
+div.support-ticket-box {
+	background: #fff;
+	position: fixed;
+	height: 420px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1050;
+	display: none;
+}
+
+div.support-ticket-container {
+	position: relative;
+}
+div.support-ticket-container i.close-support-ticket {
+	position: absolute;
+	top: -5px;
+	right: -20px;
+	z-index: 1060;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+	cursor: pointer;
+}
+div.support-ticket-head {
+	background: #4787ed;
+	color: #fff;
+}
+div.support-ticket-head h3 {
+	padding: 0.75em 1em;
+	margin: 0;
+	font-size: 22px;
+}
+div.support-ticket-body div.input-group-addon,
+div.support-ticket-body .form-control {
+	border-radius: 0;
+	border-bottom: none;
+}
+div.support-ticket-body select.form-control {
+	padding-left: 12px;
+	color: #888;
+}
+
+div.form-step-2 {
+	display: none;
+}
+#submit-ticket,
+#submit-ticket:hover,
+#submit-ticket:focus,
+#submit-ticket:active {
+	background-color: #428bca;
+}
+
+
+/* FOR BIG DEVICES */
+@media screen and (min-width: 768px) { 
+	#main-content { 
+		padding-top: 80px; 
+	} 
+}
+
+/* FOR MEDIUM DEVICES */
+@media screen and (min-width: 768px) and (max-width: 1200px) { 
+	.benefits { 
+		font-size: 1.15em; 
+	} 
+	.cta-heading h1 {
+		font-size: 3em;
+	}
+}
+
+/* FOR SMALL DEVICES */
+@media screen and (max-width: 768px) { 
+	nav.navbar div.navbar-left {
+		font-size: 20px;
+		padding: 10px 0;
+	}
+	.cta-area {
+		font-size: 0.75em;
+	}
+	.benefits {
+		font-size: 2em;
+		line-height: auto;
+		padding: 1em 0;
+		text-align: center;
+	}
+	.cta-heading h1 {
+		margin-bottom: 0;
+		font-size: 3.25em;
+	}
+	#main-content { 
+		padding-top: 60px; 
+	}
+	div.support-ticket-body {
+		overflow-y: auto;
+	}
+	div.support-ticket-box {
+		height: 480px;
+	}
+	div.ticket-submit-line > * {
+		margin-bottom: 5px;
+	}
+	div.support-ticket-head h3 {
+	  	font-size: 17px;
+	}
+	.QapTcha .dropSuccess {
+	  	left: 7px;
+	}
+}
